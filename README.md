@@ -1,2 +1,2 @@
-# YousChatApp
+# ChatYusApp
 Created with CodeSandbox
