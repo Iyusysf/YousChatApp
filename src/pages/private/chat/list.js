@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//test
+
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItem from "@material-ui/core/ListItem";
 import List from "@material-ui/core/List";
@@ -14,7 +14,7 @@ import AppHeader from "../../../components/AppBar";
 import Container from "@material-ui/core/Container";
 
 import { useHistory } from "react-router-dom";
-import { auth, useFirebase } from "../../../components/FirebaseProvider";
+import {  useFirebase } from "../../../components/FirebaseProvider";
 import Fab from "@material-ui/core/Fab";
 import ChatIcon from "@material-ui/icons/Chat";
 import AddDialog from "./add";
