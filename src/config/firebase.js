@@ -1,10 +1,10 @@
 const firebaseConfig={
-  apiKey: "AIzaSyC-jeAx_w5D6cI8l-u2bQWnIO5ZNTW1W8s",
-  authDomain: "chat-yusapp.firebaseapp.com",
-  databaseURL: "https://chat-yusapp.firebaseio.com",
-  projectId: "chat-yusapp",
-  storageBucket: "chat-yusapp.appspot.com",
-  messagingSenderId: "622702132489",
-  appId: "1:622702132489:web:43928a660435d0b84d67d8"
+  apiKey: "AIzaSyDn2nNi2mo5MATrE0wuDLwyGjVcjc4TcrM",
+  authDomain: "youschatapp.firebaseapp.com",
+  databaseURL: "https://youschatapp.firebaseio.com",
+  projectId: "youschatapp",
+  storageBucket: "youschatapp.appspot.com",
+  messagingSenderId: "126521094137",
+  appId: "1:126521094137:web:cb42019bb6bc74ad875728"
 };
 export default firebaseConfig;

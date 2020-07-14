@@ -10,7 +10,7 @@ import Divider from "@material-ui/core/Divider";
 import Badge from "@material-ui/core/Badge";
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 import useStyles from "./styles/list";
-import AppHeader from "../../../components/AppBar";
+import AppBar from "../../../components/AppBar";
 import Container from "@material-ui/core/Container";
 
 import { useHistory } from "react-router-dom";
@@ -19,11 +19,13 @@ import Fab from "@material-ui/core/Fab";
 import ChatIcon from "@material-ui/icons/Chat";
 import AddDialog from "./add";
 import { useData } from "../../../components/DataProvider";
+
 export default function ChatList() {
   const history = useHistory();
   const classes = useStyles();
   const { chats } = useData();
   const { user } = useFirebase();
+
 
   const [chatDialog, setChatDialog] = useState({
     open: false
@@ -36,7 +38,7 @@ export default function ChatList() {
   console.log(chats);
   return (
     <>
-      <AppHeader />
+      <AppBar />
       <Container maxWidth="md">
         <List>
           {chats.map(chat => {
